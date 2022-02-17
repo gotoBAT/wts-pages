@@ -1,0 +1,35 @@
+{
+  "name": "wts-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "wts-pages",
+    "zce"
+  ],
+  "repository": "gotoBAT/wts-pages",
+  "license": "MIT",
+  "author": "gotoBAT <michaelwts@qq.com> (https://www.michaelwts.com)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
